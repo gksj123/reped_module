@@ -1,0 +1,343 @@
+['INPUTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['INPUTS']['gEQDSK'] <-:-:-> OMFITgeqdsk <-:-:-> ./INPUTS/g010000.01000 <-:-:-> {}
+['INPUTS']['aEQDSK'] <-:-:-> OMFITaeqdsk <-:-:-> ./INPUTS/afile <-:-:-> {}
+['INPUTS']['reped_input'] <-:-:-> pickle <-:-:-> ./INPUTS/OMFITpickled_412ae33a37 <-:-:-> {}
+['INPUTS']['elite.in'] <-:-:-> OMFITnamelist <-:-:-> ./INPUTS/elite.in <-:-:-> {}
+['INPUTS']['jbootstrap'] <-:-:-> OMFITascii <-:-:-> ./INPUTS/jbootstrap.bas <-:-:-> {}
+['INPUTS']['gEQDSK1'] <-:-:-> OMFITgeqdsk <-:-:-> ./INPUTS/g010000.01000_2_6629da237c/g010000.01000 <-:-:-> {}
+['OUTPUTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['reped_output'] <-:-:-> pickle <-:-:-> ./OUTPUTS/OMFITpickled_1f87e18e7c <-:-:-> {}
+['OUTPUTS']['SAV'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['SAV']['CORSICA_log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/SAV/CORSICA_log.txt <-:-:-> {}
+['OUTPUTS']['SAV']['010000_1000.sav'] <-:-:-> OMFITpdb <-:-:-> ./OUTPUTS/SAV/010000_1000.sav <-:-:-> {}
+['OUTPUTS']['SAV']['010000_1000_inv.sav'] <-:-:-> OMFITpdb <-:-:-> ./OUTPUTS/SAV/010000_1000_inv.sav <-:-:-> {}
+['OUTPUTS']['SAV']['CORSICA_log.txt'] <-:-:-> OMFITasciitable <-:-:-> ./OUTPUTS/SAV/CORSICA_log.txt_2_4c16268d40/CORSICA_log.txt <-:-:-> {}
+['OUTPUTS']['SAV']['cfetr_inv.sav'] <-:-:-> OMFITpdb <-:-:-> ./OUTPUTS/SAV/cfetr_inv.sav <-:-:-> {}
+['OUTPUTS']['SAV']['polline.txt'] <-:-:-> OMFITasciitable <-:-:-> ./OUTPUTS/SAV/polline.txt <-:-:-> {}
+['OUTPUTS']['TEQ'] <-:-:-> OMFITcollection <-:-:->  <-:-:-> {'selector': None, 'strategy': None, 'raise_errors': None, 'no_subdir': False}
+['OUTPUTS']['TEQ']['000000'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000000']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000000/t000000.01300_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000000']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000000/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000000']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000000/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000000']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000000/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000001'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000001']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000001/t000001.01310_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000001']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000001/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000001']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000001/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000001']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000001/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000002'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000002']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000002/t000002.01320_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000002']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000002/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000002']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000002/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000002']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000002/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000003'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000003']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000003/t000003.01330_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000003']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000003/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000003']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000003/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000003']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000003/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000004'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000004']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000004/t000004.01340_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000004']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000004/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000004']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000004/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000004']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000004/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000005'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000005']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000005/t000005.01350_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000005']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000005/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000005']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000005/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000005']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000005/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000006'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000006']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000006/t000006.01360_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000006']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000006/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000006']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000006/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000006']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000006/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000007'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000007']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000007/t000007.01370_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000007']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000007/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000007']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000007/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000007']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000007/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000008'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000008']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000008/t000008.01380_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000008']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000008/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000008']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000008/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000008']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000008/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000009'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000009']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000009/t000009.01390_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000009']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000009/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000009']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000009/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000009']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000009/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000010'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000010']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000010/t000010.01400_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000010']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000010/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000010']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000010/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000010']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000010/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000011'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000011']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000011/t000011.02500_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000011']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000011/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000011']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000011/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000011']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000011/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000012'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000012']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000012/t000012.02510_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000012']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000012/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000012']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000012/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000012']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000012/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000013'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000013']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000013/t000013.02520_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000013']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000013/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000013']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000013/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000013']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000013/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000014'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000014']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000014/t000014.02530_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000014']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000014/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000014']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000014/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000014']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000014/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000015'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000015']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000015/t000015.02540_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000015']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000015/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000015']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000015/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000015']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000015/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000016'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000016']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000016/t000016.02550_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000016']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000016/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000016']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000016/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000016']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000016/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000017'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000017']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000017/t000017.02560_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000017']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000017/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000017']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000017/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000017']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000017/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000017']['newtfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000017/t000017.02560_inv_teq_2_47fb544d7c/t000017.02560_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000017']['pressure.txt'] <-:-:-> OMFITasciitable <-:-:-> ./OUTPUTS/TEQ/000017/pressure.txt <-:-:-> {}
+['OUTPUTS']['TEQ']['000017']['width'] <-:-:-> pickle <-:-:-> ./OUTPUTS/TEQ/000017/OMFITpickled_b3a5480592 <-:-:-> {}
+['OUTPUTS']['TEQ']['000017']['height'] <-:-:-> pickle <-:-:-> ./OUTPUTS/TEQ/000017/OMFITpickled_d40be8cb9c <-:-:-> {}
+['OUTPUTS']['TEQ']['000018'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000018']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000018/t000018.02570_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000018']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000018/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000018']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000018/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000018']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000018/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000019'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000019']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000019/t000019.02580_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000019']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000019/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000019']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000019/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000019']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000019/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000020'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000020']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000020/t000020.02590_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000020']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000020/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000020']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000020/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000020']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000020/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000021'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000021']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000021/t000021.02600_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000021']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000021/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000021']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000021/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000021']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000021/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000022'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000022']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000022/t000022.03200_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000022']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000022/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000022']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000022/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000022']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000022/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000023'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000023']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000023/t000023.03210_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000023']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000023/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000023']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000023/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000023']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000023/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000024'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000024']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000024/t000024.03220_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000024']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000024/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000024']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000024/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000024']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000024/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000025'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000025']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000025/t000025.03230_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000025']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000025/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000025']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000025/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000025']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000025/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000026'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000026']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000026/t000026.03240_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000026']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000026/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000026']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000026/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000026']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000026/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000026']['newtfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000026/t000026.03240_inv_teq_2_c22f798cc7/t000026.03240_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000026']['pressure.txt'] <-:-:-> OMFITasciitable <-:-:-> ./OUTPUTS/TEQ/000026/pressure.txt <-:-:-> {}
+['OUTPUTS']['TEQ']['000026']['width'] <-:-:-> pickle <-:-:-> ./OUTPUTS/TEQ/000026/OMFITpickled_b3a5480592 <-:-:-> {}
+['OUTPUTS']['TEQ']['000026']['height'] <-:-:-> pickle <-:-:-> ./OUTPUTS/TEQ/000026/OMFITpickled_d40be8cb9c <-:-:-> {}
+['OUTPUTS']['TEQ']['000027'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000027']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000027/t000027.03250_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000027']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000027/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000027']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000027/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000027']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000027/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000028'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000028']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000028/t000028.03260_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000028']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000028/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000028']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000028/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000028']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000028/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000029'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000029']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000029/t000029.03270_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000029']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000029/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000029']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000029/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000029']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000029/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000030'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000030']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000030/t000030.03280_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000030']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000030/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000030']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000030/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000030']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000030/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000031'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000031']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000031/t000031.03290_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000031']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000031/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000031']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000031/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000031']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000031/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000032'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000032']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000032/t000032.03300_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000032']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000032/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000032']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000032/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000032']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000032/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000033'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000033']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000033/t000033.04200_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000033']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000033/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000033']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000033/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000033']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000033/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000034'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000034']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000034/t000034.04210_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000034']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000034/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000034']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000034/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000034']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000034/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000035'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000035']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000035/t000035.04220_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000035']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000035/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000035']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000035/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000035']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000035/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000036'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000036']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000036/t000036.04230_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000036']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000036/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000036']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000036/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000036']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000036/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000037'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000037']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000037/t000037.04240_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000037']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000037/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000037']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000037/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000037']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000037/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000038'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000038']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000038/t000038.04250_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000038']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000038/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000038']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000038/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000038']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000038/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000039'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000039']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000039/t000039.04260_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000039']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000039/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000039']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000039/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000039']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000039/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000040'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000040']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000040/t000040.04270_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000040']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000040/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000040']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000040/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000040']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000040/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000041'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000041']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000041/t000041.04280_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000041']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000041/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000041']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000041/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000041']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000041/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000042'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000042']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000042/t000042.04290_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000042']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000042/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000042']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000042/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000042']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000042/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000043'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000043']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000043/t000043.04300_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000043']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000043/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000043']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000043/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000043']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000043/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000044'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000044']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000044/t000044.04600_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000044']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000044/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000044']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000044/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000044']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000044/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000045'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000045']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000045/t000045.04610_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000045']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000045/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000045']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000045/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000045']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000045/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000046'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000046']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000046/t000046.04620_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000046']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000046/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000046']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000046/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000046']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000046/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000047'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000047']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000047/t000047.04630_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000047']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000047/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000047']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000047/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000047']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000047/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000048'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000048']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000048/t000048.04640_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000048']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000048/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000048']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000048/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000048']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000048/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000049'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000049']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000049/t000049.04650_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000049']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000049/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000049']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000049/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000049']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000049/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000050'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000050']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000050/t000050.04660_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000050']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000050/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000050']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000050/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000050']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000050/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000051'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000051']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000051/t000051.04670_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000051']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000051/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000051']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000051/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000051']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000051/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000052'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000052']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000052/t000052.04680_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000052']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000052/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000052']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000052/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000052']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000052/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000053'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000053']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000053/t000053.04690_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000053']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000053/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000053']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000053/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000053']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000053/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['000054'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['000054']['tfile'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000054/t000054.04700_inv_teq <-:-:-> {}
+['OUTPUTS']['TEQ']['000054']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000054/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['000054']['dskgato'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000054/dskgato <-:-:-> {}
+['OUTPUTS']['TEQ']['000054']['elite.log'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/000054/elite.log <-:-:-> {}
+['OUTPUTS']['TEQ']['tot_result'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['OUTPUTS']['TEQ']['tot_result']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/TEQ/tot_result/varpedbas <-:-:-> {}
+['OUTPUTS']['TEQ']['tot_result']['prfiles_ntpj'] <-:-:-> OMFITasciitable <-:-:-> ./OUTPUTS/TEQ/tot_result/ntpj.txt <-:-:-> {}
+['OUTPUTS']['varpedbas'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/varpedbas <-:-:-> {}
+['OUTPUTS']['varpedbas1'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/varpedbas1 <-:-:-> {}
+['OUTPUTS']['rho1'] <-:-:-> OMFITasciitable <-:-:-> ./OUTPUTS/rhonorm.txt <-:-:-> {}
+['OUTPUTS']['psi'] <-:-:-> OMFITascii <-:-:-> ./OUTPUTS/result.txt <-:-:-> {}
+['OUTPUTS']['profiles'] <-:-:-> OMFITasciitable <-:-:-> ./OUTPUTS/ntpj.txt <-:-:-> {}
+['SCRIPTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['SCRIPTS']['getsav'] <-:-:-> OMFITpythonTask <-:-:-> ./SCRIPTS/getsav.py <-:-:-> {}
+['SCRIPTS']['getteq'] <-:-:-> OMFITpythonTask <-:-:-> ./SCRIPTS/getteq.py <-:-:-> {}
+['SCRIPTS']['runelite'] <-:-:-> OMFITpythonTask <-:-:-> ./SCRIPTS/runelite.py <-:-:-> {}
+['SCRIPTS']['getpbm'] <-:-:-> OMFITpythonTask <-:-:-> ./SCRIPTS/getpbm.py <-:-:-> {}
+['SCRIPTS']['getped'] <-:-:-> OMFITpythonTask <-:-:-> ./SCRIPTS/getped.py <-:-:-> {}
+['SCRIPTS']['getsav0'] <-:-:-> OMFITpythonTask <-:-:-> ./SCRIPTS/getsav0.py <-:-:-> {}
+['SCRIPTS']['psirho'] <-:-:-> OMFITpythonTask <-:-:-> ./SCRIPTS/psi2rho_cfetr.py <-:-:-> {}
+['SCRIPTS']['datatransform'] <-:-:-> OMFITpythonTask <-:-:-> ./SCRIPTS/transform.py <-:-:-> {}
+['SCRIPTS']['run_REPED'] <-:-:-> OMFITpythonTask <-:-:-> ./SCRIPTS/run.py <-:-:-> {}
+['SCRIPTS']['exp_ped'] <-:-:-> OMFITpythonTask <-:-:-> ./SCRIPTS/file_2023-04-26__16:46:40__988473 <-:-:-> {}
+['SCRIPTS']['exp_ped1'] <-:-:-> OMFITpythonTask <-:-:-> ./SCRIPTS/file_2023-04-26__16:48:24__035677 <-:-:-> {}
+['SCRIPTS']['getped1'] <-:-:-> OMFITpythonTask <-:-:-> ./SCRIPTS/getped.py_2_23fb75fe90/getped.py <-:-:-> {}
+['SCRIPTS']['plot_press'] <-:-:-> OMFITpythonTask <-:-:-> ./SCRIPTS/plot_press.py <-:-:-> {}
+['SCRIPTS']['initialize'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['SCRIPTS']['initialize']['configbashrc'] <-:-:-> OMFITpythonTask <-:-:-> ./SCRIPTS/initialize/file_2025-10-23__16:20:32__266281 <-:-:-> {}
+['PLOTS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['PLOTS']['pedplot'] <-:-:-> OMFITpythonTask <-:-:-> ./PLOTS/pedplot.py <-:-:-> {}
+['GUIS'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['GUIS']['REPEDGUI'] <-:-:-> OMFITpythonGUI <-:-:-> ./GUIS/REPEDGUI.py <-:-:-> {}
+['LIB'] <-:-:-> OMFITtree <-:-:->  <-:-:-> {}
+['LIB']['OMFITlib_startup'] <-:-:-> OMFITpythonTask <-:-:-> ./LIB/OMFITlib_startup.py <-:-:-> {}
+['SETTINGS'] <-:-:-> OMFITsettings <-:-:-> ./SettingsNamelist.txt <-:-:-> {}
+['SETTINGS']['SETUP']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"OMFITworkDir(root,'')" <-:-:-> {}
+['SETTINGS']['EXPERIMENT']['shot'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['shot']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['shot']\n" <-:-:-> {}
+['SETTINGS']['EXPERIMENT']['time'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['time']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['time']\n" <-:-:-> {}
+['SETTINGS']['EXPERIMENT']['device'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['device']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['device']\n" <-:-:-> {}
+['SETTINGS']['EXPERIMENT']['shots'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['shots']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['shots']\n" <-:-:-> {}
+['SETTINGS']['EXPERIMENT']['times'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['times']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['times']\n" <-:-:-> {}
+['SETTINGS']['EXPERIMENT']['runid'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=OMFITmodules[-2]['SETTINGS']['EXPERIMENT']['runid']\nexcept Exception:\n    return_variable=MainSettings['EXPERIMENT']['runid']\n" <-:-:-> {}
+['SETTINGS']['REMOTE_SETUP']['serverPicker'] <-:-:-> OMFITexpression <-:-:-> _"try:\n    return_variable=str(OMFITmodules[-2]['SETTINGS']['REMOTE_SETUP']['serverPicker'])\nexcept Exception:\n    return_variable='default'" <-:-:-> {}
+['SETTINGS']['REMOTE_SETUP']['workDir'] <-:-:-> OMFITexpression <-:-:-> _"OMFITworkDir(root,parent['serverPicker'])" <-:-:-> {}
+['SETTINGS']['REMOTE_SETUP']['server'] <-:-:-> OMFITexpression <-:-:-> _"SERVER[parent['serverPicker']]['server']" <-:-:-> {}
+['SETTINGS']['REMOTE_SETUP']['tunnel'] <-:-:-> OMFITexpression <-:-:-> _"SERVER[parent['serverPicker']]['tunnel']" <-:-:-> {}
+['help'] <-:-:-> OMFITascii <-:-:-> ./help.rst <-:-:-> {}

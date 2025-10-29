@@ -1,0 +1,37 @@
+ &equil
+ shape = 'gato'
+ setdel = .True.
+ del_fix = 0.2
+ percenflux = 1.0
+ alpsi = -0.96
+ npts = 401
+ npsi = 400
+ /
+ &vac
+ npts = 512
+ ng = 8
+ /
+ &qref_modes
+ nn = 5
+ nmlow = 4
+ nmvac = -1
+ psimin = 0.22
+ nmwinhalf = -1
+ nxinterp = 150
+ dens = .False.
+ /
+ &plas
+ ndist = 200
+ lamdist = 0.5
+ ns = 513
+ meshtype = 3
+ autorun = .False.
+ updownsym = .False.
+ n1term = 2
+ funcal = .False.
+ gamsq = 0.0
+ igam = 1
+ vacuum = .True.
+ nowindow = .False.
+ newtstep = 0.005
+ /

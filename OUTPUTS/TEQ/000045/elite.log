@@ -1,0 +1,25 @@
+elite base input file is elite.in
+---------------------------- nn= 5 ----------------------------
+  nn=            5  del=   0.1999948365531257     
+ (igam=1, stability check only, no growth rate calculation)
+ Stability check finds mode is **STABLE**
+---------------------------- nn= 10 ----------------------------
+  nn=            5  del=   0.1999948365531257     
+ (igam=1, stability check only, no growth rate calculation)
+ Stability check finds mode is **STABLE**
+---------------------------- nn= 15 ----------------------------
+  nn=            5  del=   0.1999948365531257     
+ (igam=1, stability check only, no growth rate calculation)
+ Stability check finds mode is **STABLE**
+---------------------------- nn= 20 ----------------------------
+  nn=            5  del=   0.1999948365531257     
+ (igam=1, stability check only, no growth rate calculation)
+ Stability check finds mode is **STABLE**
+---------------------------- nn= 25 ----------------------------
+  nn=            5  del=   0.1999948365531257     
+ (igam=1, stability check only, no growth rate calculation)
+ Stability check finds mode is **STABLE**
+---------------------------- nn= 30 ----------------------------
+  nn=            5  del=   0.1999948365531257     
+ (igam=1, stability check only, no growth rate calculation)
+ Stability check finds mode is **STABLE**

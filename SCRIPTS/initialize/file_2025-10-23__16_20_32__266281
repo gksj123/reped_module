@@ -1,0 +1,14 @@
+#-*-Python-*-
+# Created by nanhy at 23 Oct 2025  16:20
+
+"""
+This script <fill in purpose>
+
+defaultVars parameters
+----------------------
+:param kw1: kw1 can be passed to this script as <path to script>.run(kw1='hello')
+"""
+
+defaultVars(kw1=None)
+
+print(kw1)

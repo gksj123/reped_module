@@ -1,0 +1,36 @@
+#-*-Python-*-
+# Created by wmq at 26 Apr 2023  16:48
+
+"""
+This script <fill in purpose>
+
+defaultVars parameters
+----------------------
+:param kw1: kw1 can be passed to this script as <path to script>.run(kw1='hello')
+"""
+
+# pressure
+def Hmode_profiles(edge=.08, ped=1.0, core=4., rgrid=129, expin=1.5, expout=1.5, widthp=0.04, xphalf=None):
+    if xphalf is None:
+        xphalf=1.-widthp
+    xped=xphalf-widthp
+    pconst=1.-np.tanh((1.-xphalf)/widthp)
+    a_t=2.*(ped-edge)/(1.+np.tanh(1.)-pconst)
+    coretanh=0.5*a_t*(1.-np.tanh(-xphalf/widthp)-pconst)+edge
+    xpsi = OMFIT['REPED']['INPUTS']['gEQDSK']['fluxSurfaces']['geo']['psin']
+    ones = np.ones(rgrid)
+    val = 0.5*a_t*(1.-np.tanh((xpsi-xphalf)/widthp)-pconst)+edge*ones
+    xtoped=xpsi/xped
+    for i in range(0,rgrid):
+        if(xtoped[i]**expin<1.):
+            val[i] = val[i]+(core-coretanh)*(1.-xtoped[i]**expin)**expout
+    return val
+
+rho=OMFIT['REPED']['INPUTS']['gEQDSK']['fluxSurfaces']['geo']['psin']
+tval = Hmode_profiles(ped=3.7e3,core=1.0e4,edge=0.02e3,expin=2.4,expout=1.1,widthp=0.036,rgrid=129)
+press = OMFIT['REPED']['INPUTS']['gEQDSK']['PRES']
+plot(rho,tval,c = 'red')
+plot(rho,press)
+xlim(0.8,1)
+ylim(0,8e3)
+show()

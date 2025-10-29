@@ -1,0 +1,62 @@
+#-*-Python-*-
+# Created by wmq at 26 Apr 2023  16:46
+
+"""
+This script <fill in purpose>
+
+defaultVars parameters
+----------------------
+:param kw1: kw1 can be passed to this script as <path to script>.run(kw1='hello')
+"""
+
+
+import numpy as np
+from scipy.optimize import leastsq
+
+def mtanh(x, factor):
+    A=factor[0]
+    B=factor[1]
+    alpha=factor[2]
+    x_sys=factor[3]
+    w=factor[4]
+    beta=factor[5]
+    #gamma=a[7]
+    z=(x_sys-x)/w
+    mtanh_fun=((1+alpha*z)*exp(z)-(1+beta*z)*exp(-z))/(exp(z)+exp(-z))
+    y=A*mtanh_fun+B
+    return y
+
+def residuals(p, y, x):
+    return y - mtanh(x, p)
+def refl_fitting(R,n):
+    ped_pos=0.92  #pedestal position
+    h=3.5    #height
+    w=0.08    #width
+    slope1=0.07   #slope of the core part
+    slope2=-2.5  #slope of edge part
+    fac_init=np.array((h/2, h/2, slope1, ped_pos, w, slope2))
+
+    index=np.where((R<=1.005)&(R>0.8))
+    R1=R[index]
+    n1=n[index]
+    factor=leastsq(residuals, fac_init, args=(n1, R1))
+    height=factor[0][0]+factor[0][1]
+    width = 2*factor[0][4]
+    x1=np.arange(np.min(R1),1.2,0.01)
+    y1=mtanh(x1,factor[0])
+    return np.array((x1,y1,height,width))
+xlim(0.8,1.005)
+ylim(0,10)
+x=OMFIT['REPED']['INPUTS']['gEQDSK']['fluxSurfaces']['geo']['psin']
+y=OMFIT['REPED']['INPUTS']['gEQDSK']['PRES']/1000
+Rfit,nfit,height,width = refl_fitting(x,y)
+plt.plot(x,y,'--',label='pressure',linewidth=1.0,c='black')
+plt.plot(Rfit,nfit,'-',label='mtanh',linewidth=1.0,c='red')
+xlabel(r'$\psi$',fontsize=16)
+ylabel('pressure (kPa)',fontsize=16)
+plt.xticks(fontsize=13)
+plt.yticks(fontsize=13)
+plt.legend(loc='lower left',fontsize=16)
+plt.plot(1-width,height,'ro',markersize=9)
+plt.text(0.8,2.5,'[width=%f,height=%f]'%(width,height),fontsize=14)
+plt.show()

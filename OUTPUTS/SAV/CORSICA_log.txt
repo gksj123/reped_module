@@ -1,0 +1,8 @@
+setting CPU_ environment to LINUX
+using your own BASIS_ROOT environment, /gpfs-home/users/wmq/corscia/caltrans/caltrans_120523/code/basis
+Running /gpfs-home/users/wmq/corscia/caltrans/caltrans_120523/code/bin/LINUX/caltrans
+
+PROBLEM NO. 1  eq   Constructed from g010000.01000                                                  
+Calculating Greens functions
+Calculating pfim
+ res(301)=  2.834E-06  xpt(41, 33)=  5.826E+02,-3.919E+02 plc=  9.707E+00 *
